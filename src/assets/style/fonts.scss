@@ -1,0 +1,27 @@
+$main-font: "PublicSans";
+$second-font: "Roboto";
+$font-path: "../fonts/";
+
+$font-weight: (
+  400: "Regular",
+  500: "Medium",
+  600: "SemiBold",
+  700: "Bold",
+);
+
+@each $weight, $weight-name in $font-weight {
+  @font-face {
+    font-family: $main-font;
+    src: url("#{font-path}#{main-font}-#{weight-name}.ttf");
+    font-style: normal;
+    font-weight: $weight;
+  }
+}
+@each $weight, $weight-name in $font-weight {
+  @font-face {
+    font-family: $second-font;
+    src: url("#{font-path}#{main-font}-#{weight-name}.ttf");
+    font-style: normal;
+    font-weight: $weight;
+  }
+}

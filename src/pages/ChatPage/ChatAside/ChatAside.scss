@@ -1,0 +1,20 @@
+.chat__aside {
+  margin-right: 13px;
+  max-width: 226px;
+  padding-left: 5px;
+  span {
+    width: 100%;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 6px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 173%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #5d5fef;
+    box-shadow: 0 0 4px 0 #e1e2ff;
+    background: #e1e2ff;
+    border-radius: 5px;
+  }
+}

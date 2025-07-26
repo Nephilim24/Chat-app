@@ -1,10 +1,12 @@
+import NavBar from "../../widgets/NavBar/NavBar";
 
 const AuthPage = () => {
-    return (
-        <>
-            Логин
-        </>
-    )
-}
+  return (
+    <>
+      {/* <NavBar /> */}
+      Логин
+    </>
+  );
+};
 
 export default AuthPage;

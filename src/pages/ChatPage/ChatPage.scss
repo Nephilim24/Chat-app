@@ -1,0 +1,9 @@
+.chat {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: auto;
+
+  // .chat__open
+  &__open {
+  }
+}

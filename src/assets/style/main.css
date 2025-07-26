@@ -1,24 +1,28 @@
+@import url("fonts.scss");
+@import url("root.css");
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-button, input {
-    border: none;
-    outline: none;
+button,
+input {
+  border: none;
+  outline: none;
 }
 
 a {
-    text-decoration: none;
-    color: unset;
+  text-decoration: none;
+  color: unset;
 }
 
 body {
-    font-family: 'Consolas', serif;
-    background-color: #212121;
+  font-family: var(--font-family);
+  background-color: var(--white);
 }
