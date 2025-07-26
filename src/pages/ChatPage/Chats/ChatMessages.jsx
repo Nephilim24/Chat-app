@@ -1,4 +1,5 @@
 import "./ChatMessages.scss";
+
 const ChatMessages = () => {
   return (
     <div className="chats">

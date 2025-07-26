@@ -1,0 +1,19 @@
+.textfield {
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 13px;
+    width: 100%;
+    transition: all .3s;
+    font-size: 16px;
+
+    &:focus {
+        border: 1px solid var(--primary-color);
+        transition: all .3s;
+    }
+
+    &::placeholder {
+        color: #dbdbdb;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

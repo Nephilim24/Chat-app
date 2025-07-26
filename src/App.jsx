@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import AuthPage from "./pages/AuthPage/AuthPage.jsx";
 import ChatPage from "./pages/ChatPage/ChatPage.jsx";

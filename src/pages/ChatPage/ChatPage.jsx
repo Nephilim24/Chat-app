@@ -1,17 +1,16 @@
-import NavBar from "../../widgets/NavBar/NavBar";
-import ChatAside from "./ChatAside/ChatAside";
-import ChatMessages from "./Chats/ChatMessages.jsx";
 import "./ChatPage.scss";
+import NavBar from "../../widgets/NavBar/NavBar";
+import ChatMessages from "./Chats/ChatMessages.jsx";
+import OpenChat from "./OpenChat/OpenChat.jsx";
 
 const ChatPage = () => {
   return (
     <>
       <NavBar />
-      <div className="chat">
-        <ChatAside />
+      <section className="chat">
         <ChatMessages />
-        <div className="chat__open"></div>
-      </div>
+        <OpenChat />
+      </section>
     </>
   );
 };
